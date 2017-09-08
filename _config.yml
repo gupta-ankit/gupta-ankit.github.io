@@ -1,0 +1,35 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            Ankit Gupta
+description:      Visual Analytics Researcher and Web Developer
+
+author:
+  name:           'Ankit Gupta'
+  url:            https://twitter.com/AnkitGupta_89
+
+paginate:         5
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+sidebar_home_link:  false
+
+#custom vars
+version:            3.4.1
+github:
+  repo:             https://github.com/fongandrew/hydeout
+
+navigation:
+- text: Blog
+  url: /
+- text: About
+  url: /about.html
+- text: Publications
+  url: /publications.html
+- text: Projects
+  url: /projects.html

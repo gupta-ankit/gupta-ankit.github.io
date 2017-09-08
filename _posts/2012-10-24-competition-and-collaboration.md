@@ -1,0 +1,42 @@
+---
+id: 43
+title: Competition, Collaboration and Software.
+date: 2012-10-24T03:04:19+00:00
+author: ankit
+layout: post
+guid: http://www.ankit-gupta.com/blog/?p=43
+permalink: /competition-and-collaboration/
+categories:
+  - Uncategorized
+---
+<p style="text-align: justify;">
+  If you happen to be a guy who has spent some time in online forums for software developers, you might be aware of the flame wars that go on between different software such as <strong>vim </strong>and<strong> emacs</strong> or <strong>netbeans </strong>and<strong> eclipse,</strong> or between different operating systems. I happen to be the guy who just hates these kind of discussions. The problem with these flame wars is that they start as simple comparisons or discussions and evolve into pure blasphemy.
+</p>
+
+<p style="text-align: justify;">
+  Obviously there is a reason to this madness. It is usually the incapability/inflexibility of a particular piece of software to achieve what someone might want. One thing that I have learnt about software in terms of functionality is that it is a very bad idea to develop software that has features to satisfy the needs of every user in a given domain. What happens very often is that people start copying their rival product which can lead to bad things happening. You might copy some product that already exists and you won&#8217;t have a selling point and eventually you will have to sell your product at a lower price (potentially a series of unpleasant decisions). Just look at the products that try to copy Photoshop, per se. Now, I am not talking about products that were created to provide free alternatives because they have achieved their goals.
+</p>
+
+<p style="text-align: justify;">
+  I see a potential misunderstanding that might arise of what I just said. When I say a potential risk in copying features of a product, I do not mean that an image editing software should not have an image crop feature because Photoshop has it. What I mean is that one should try to copy the &#8220;selling points&#8221; of a software. Rather, try to have your unique selling points or improve on the features that are already provided by existing software. To give a more concrete example, have a look at <a href="http://getormr.com/home/" target="_blank">ormr</a> which does not sell itself by copying existing image editors, but brings something that others do not have.
+</p>
+
+<p style="text-align: justify;">
+  Now, this is to some extent the perspective or requirement of a category of users (which is much more in numbers as one might think) who need a difference in the products they use.
+</p>
+
+<p style="text-align: justify;">
+  On the  other hand of the spectrum is research in both academia and industry. On one hand where software needs more competition to create a market of unique products, research needs a community of collaborators. To allow, commercial vendors to provide some new and outstanding functionality that will drop our jaws, research should constantly feed the market with new results and technology.
+</p>
+
+<p style="text-align: justify;">
+  Now, it might sound easy and you might think that the research community is to blame. And I would simply say, &#8220;I do not agree&#8221;. Here is what generally happens. A graduate student starts with some idea in mind, explores related research and then half way through realizes that, just to get his idea going, he needs to get results from completely different field of study than computer science and also needs software components that are mentioned in some research but are not available as implementations. Now, by the time, he finishes coding all the pre-requisites, he does not have enough time to spend on his original idea. He would eventually code his idea (half-baked a lot of times) and present it to the community. Another student at some other place who wants to continue his research in the same area as our former student, needs to go through all of the work that our former student has already done.
+</p>
+
+<p style="text-align: justify;">
+  Although, this approach works, the problem is that the incremental results of this approach are too small and take a very long time before they reach the market as part of some software. To overcome this sluggish nature of the beast, what the research community desperately needs is a directory of research (not just researchers) and related software components which are easily accessible to other researchers and graduate students which will allow them to work more on their idea and not on the pre-requisite components.
+</p>
+
+<p style="text-align: justify;">
+  I know some people who are already there working on something similar. I am fortunate enough to be a part of the project and also the fact that someone else too experiences the same limitations as I do. I would also ask you to let me know if you are interested in helping us build such a research directly. At the same time, I would also like to hear from you, if you happen to have any other ideas, opinion or comments.
+</p>
