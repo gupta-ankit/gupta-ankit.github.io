@@ -1,12 +1,5 @@
 <!-- Optional additional links to insert in sidebar nav -->
 
-{% for link in site.navigation %}
-{% assign current = nil %}
-{% if page.url == link.url %}
-{% assign current = 'active' %}
-{% endif %}
-<a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
-{% endfor %}
 
 
 

@@ -33,3 +33,5 @@ navigation:
   url: /publications.html
 - text: Projects
   url: /projects.html
+
+disqus.shortname: ankitgupta

@@ -3,6 +3,7 @@ title: About me
 author: ankit
 layout: page
 permalink: about.html
+sidebar_link: true
 ---
 <p style="text-align: justify;">
   I am a research assistant at Simon Fraser University. Before joining as a research assistant I completed by M.Sc. (Computing Science) from <a href="http://www.cs.sfu.ca/" target="_blank" rel="noopener noreferrer">Simon Fraser University</a> and B.E. (Computer Science and Engineering) from  <a href="http://www.iet.dauniv.ac.in/" target="_blank" rel="noopener noreferrer">IET-DAVV</a>.
