@@ -25,7 +25,9 @@ github:
   repo:             https://github.com/fongandrew/hydeout
 
 
-disqus.shortname: ankitgupta
+disqus:
+  shortname: ankitgupta
+
 google_analytics: UA-29493248-1
 
 
