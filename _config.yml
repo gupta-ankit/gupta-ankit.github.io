@@ -12,11 +12,6 @@ author:
 
 paginate:         5
 
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-
 sidebar_home_link:  false
 
 #custom vars

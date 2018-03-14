@@ -131,7 +131,7 @@ tags:
   The first example is a rolling piece of text on console (something similar to what you might get from the HTML marquee.
 </p>
 
-[<img class="alignnone  wp-image-28" title="MarqueeOnConsole" alt="" src="http://www.ankit-gupta.com/blog/wp-content/uploads/2012/11/MarqueeOnConsole1.gif" />](http://www.ankit-gupta.com/blog/wp-content/uploads/2012/11/MarqueeOnConsole1.gif)
+[<img class="alignnone  wp-image-28" title="MarqueeOnConsole" alt="" src="/uploads/2012/11/MarqueeOnConsole1.gif" />](/uploads/2012/11/MarqueeOnConsole1.gif)
 
 <pre lang="java" line="1">/**
 * MarqueeOnConsole.java
