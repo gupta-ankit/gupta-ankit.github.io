@@ -1,0 +1,25 @@
+// Required rules copied from the Hydeout theme
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  // `:focus` is linked to `:hover` for basic accessibility
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+
+  strong {
+    color: inherit;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+  height: auto; // Fix to keep max-width from squishing images with defined
+                // height in HTML
+}

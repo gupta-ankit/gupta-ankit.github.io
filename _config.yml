@@ -11,6 +11,7 @@ author:
   url:            https://twitter.com/AnkitGupta_89
 
 paginate:         5
+paginate_path: "/blog/page:num"
 
 sidebar_home_link:  false
 
@@ -34,4 +35,3 @@ defaults:
       layout: "post"
       author: "Ankit Gupta"
       comments: true
-        

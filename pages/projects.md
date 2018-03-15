@@ -3,7 +3,7 @@ title: Projects
 author: ankit
 layout: page
 permalink: projects.html
-sidebar_link: true
+nav_link: true
 ---
 
 # FitViz

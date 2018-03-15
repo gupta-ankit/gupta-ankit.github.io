@@ -1,8 +1,10 @@
 {% if paginator.previous_page %}
 <div class="pagination">
-  <a class="pagination-item newer"
-     href="{{ site.baseurl }}/{% unless paginator.page == 2 %}page{{ paginator.previous_page }}{% endunless %}">
-    Newer
-  </a>
+
+    <a class="pagination-item newer"
+       href="{{paginator.previous_page_path}}">
+      Newer
+    </a>
+
 </div>
 {% endif %}

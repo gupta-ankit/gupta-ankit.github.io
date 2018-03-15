@@ -21,6 +21,7 @@
     max-width: $sidebar-width;
     background: $body-bg;
     box-shadow: $default-box-shadow;
+    margin: auto;
 
     &:hover {
       background-color: $border-color;
