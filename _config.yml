@@ -4,28 +4,26 @@ highlighter:      rouge
 
 # Setup
 title:            Ankit Gupta
-description:      Visual Analytics Researcher and Web Developer
+description:      HCI Researcher | HIT Researcher | Full Stack Developer
 
 author:
   name:           'Ankit Gupta'
-  url:            https://twitter.com/AnkitGupta_89
 
 paginate:         5
 paginate_path: "/blog/page:num"
 
-sidebar_home_link:  false
-
 #custom vars
 version:            3.4.1
-github:
-  repo:             https://github.com/fongandrew/hydeout
-
 
 disqus:
   shortname: ankitgupta
 
 google_analytics: UA-29493248-1
 
+
+twitter_username: AnkitGupta_89
+linkedin_username: ankit2801
+github_username: gupta-ankit
 
 defaults:
   -

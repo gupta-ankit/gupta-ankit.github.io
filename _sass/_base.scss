@@ -23,3 +23,7 @@ img {
   height: auto; // Fix to keep max-width from squishing images with defined
                 // height in HTML
 }
+
+img.img-center {
+  margin: auto;
+}

@@ -1,0 +1,11 @@
+ul.social {
+  list-style: none;
+  margin: 10px auto;
+  display: table;
+  padding: 0;
+}
+
+ul.social li.social-item {
+  display: inline;
+  padding: 5px;
+}
