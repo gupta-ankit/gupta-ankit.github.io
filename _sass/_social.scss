@@ -8,4 +8,13 @@ ul.social {
 ul.social li.social-item {
   display: inline;
   padding: 5px;
+  a {
+    color: $primary-color-light;
+    font-size: larger;
+  }
+
+  a:hover {
+    color: $primary-color;
+    text-decoration: none;
+  }
 }

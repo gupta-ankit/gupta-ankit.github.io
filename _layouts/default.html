@@ -3,15 +3,25 @@
 
   {% include head.html %}
 
-  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
+  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %} fill-background">
 
     {% include header.html %}
 
     <div class="container">
-      {{ content }}
-
+      <div class="row">
+        <div class="col-md-9">
+          {{ content }}
+        </div>
+        <div class="col-md-3">
+          {% include sidebar.html %}
+        </div>
+      </div>
       <hr>
-      {% include footer.html %}
+      <div class="row">
+        <div class="col-md-12">
+          {% include footer.html %}
+        </div>
+      </div>
     </div>
   </body>
 </html>
