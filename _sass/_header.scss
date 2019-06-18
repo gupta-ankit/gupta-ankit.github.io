@@ -1,18 +1,47 @@
 header {
-  display: grid;
-  grid-template-columns: 5fr 5fr;
-  grid-tenplate-areas: 'title navbar';
-  height: 50px;
   background-color: map-get($colors, "running-bg");
   color: map-get($colors, "running-fg");
 }
 
-header .title {
+header .grid-container {
   width: $page-width;
   margin: auto;
-  grid-area: 'title';
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  grid-template-areas: 'title navbar';
+  height: 50px;
+  color: map-get($colors, "running-fg");
 }
 
-header .navbar {
-  grid-area: 'navbar';
+header .grid-container .title {
+  grid-area: title;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+header .grid-container .navbar {
+  grid-area: navbar;
+}
+
+
+header .grid-container ul.navbar {
+    list-style: none;
+
+    margin-top: 25px; //TODO: find a better way to align
+
+    text-align: right;
+
+    li {
+      display: inline;
+      font-size: $large-font-size;
+      padding-right: 10px;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
 }
