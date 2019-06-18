@@ -261,8 +261,8 @@ tags:
   - eclipse-rcp
   - swing
 ---
-<div id="attachment_380" style="width: 1010px" class="wp-caption aligncenter">
-  <a href="/uploads/2013/12/SwingSWTExample.png"><img class=" wp-image-380  " alt="SwingSWTExample" src="/uploads/2013/12/SwingSWTExample.png" width="1000" height="429" srcset="/uploads/2013/12/SwingSWTExample.png 1000w, /uploads/2013/12/SwingSWTExample-300x128.png 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a>
+<div id="attachment_380"   class="wp-caption aligncenter">
+  <a href="/uploads/2013/12/SwingSWTExample.png"><img class=" wp-image-380  " alt="SwingSWTExample" src="/uploads/2013/12/SwingSWTExample.png"   height="429" srcset="/uploads/2013/12/SwingSWTExample.png 1000w, /uploads/2013/12/SwingSWTExample-300x128.png 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a>
   
   <p class="wp-caption-text">
     <strong>This is what the application looks at the end.</strong>
@@ -285,7 +285,7 @@ tags:
   Before we begin, you will need to to install Eclipse and e4 (<a href="http://www.vogella.com/articles/EclipseRCP/article.html#tutorial_installation">here</a> are the instructions). Once you do that, create an Eclipse 4 project (<strong>File ></strong> <strong>New > Project > Eclipse 4 > Eclipse 4 Application Project)</strong>. At this point, you will have a project that looks like this:
 </p>
 
-[<img class="size-full wp-image-381 aligncenter" alt="PackageExplorer" src="/uploads/2013/12/PackageExplorer.png" width="404" height="348" srcset="/uploads/2013/12/PackageExplorer.png 404w, /uploads/2013/12/PackageExplorer-300x258.png 300w" sizes="(max-width: 404px) 100vw, 404px" />](/uploads/2013/12/PackageExplorer.png)
+[<img class="size-full wp-image-381 aligncenter" alt="PackageExplorer" src="/uploads/2013/12/PackageExplorer.png"   height="348" srcset="/uploads/2013/12/PackageExplorer.png 404w, /uploads/2013/12/PackageExplorer-300x258.png 300w" sizes="(max-width: 404px) 100vw, 404px" />](/uploads/2013/12/PackageExplorer.png)
 
 &nbsp;
 
@@ -298,7 +298,7 @@ tags:
 </p>
 
 <p style="text-align: justify;">
-  <a href="/uploads/2013/12/ApplicationModel.png"><img class="alignnone size-full wp-image-383" alt="ApplicationModel" src="/uploads/2013/12/ApplicationModel.png" width="902" height="900" srcset="/uploads/2013/12/ApplicationModel.png 902w, /uploads/2013/12/ApplicationModel-150x150.png 150w, /uploads/2013/12/ApplicationModel-300x300.png 300w" sizes="(max-width: 902px) 100vw, 902px" /></a>
+  <a href="/uploads/2013/12/ApplicationModel.png"><img class="alignnone size-full wp-image-383" alt="ApplicationModel" src="/uploads/2013/12/ApplicationModel.png"   height="900" srcset="/uploads/2013/12/ApplicationModel.png 902w, /uploads/2013/12/ApplicationModel-150x150.png 150w, /uploads/2013/12/ApplicationModel-300x300.png 300w" sizes="(max-width: 902px) 100vw, 902px" /></a>
 </p>
 
 <p style="text-align: justify;">
@@ -533,5 +533,5 @@ Here is the code for the class:
 </p>
 
 <p style="text-align: justify;">
-  <a href="/uploads/2013/12/SwingSWTTutorial.gif"><img class="alignnone size-full wp-image-389" alt="SwingSWTTutorial" src="/uploads/2013/12/SwingSWTTutorial.gif" width="502" height="404" /></a>
+  <a href="/uploads/2013/12/SwingSWTTutorial.gif"><img class="alignnone size-full wp-image-389" alt="SwingSWTTutorial" src="/uploads/2013/12/SwingSWTTutorial.gif"   height="404" /></a>
 </p>

@@ -176,7 +176,7 @@ public class MarqueeOnConsole{
 
 <p style="text-align: justify;">
   <p style="text-align: justify;">
-    <a href="/uploads/2012/11/AnimatedConsole.gif"><img class="alignnone size-full wp-image-49" alt="AnimatedConsole" src="/uploads/2012/11/AnimatedConsole.gif" width="860" height="330" srcset="/uploads/2012/11/AnimatedConsole.gif 860w, /uploads/2012/11/AnimatedConsole-300x115.gif 300w, /uploads/2012/11/AnimatedConsole-500x191.gif 500w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+    <a href="/uploads/2012/11/AnimatedConsole.gif"><img class="alignnone size-full wp-image-49" alt="AnimatedConsole" src="/uploads/2012/11/AnimatedConsole.gif"   height="330" srcset="/uploads/2012/11/AnimatedConsole.gif 860w, /uploads/2012/11/AnimatedConsole-300x115.gif 300w, /uploads/2012/11/AnimatedConsole-500x191.gif 500w" sizes="(max-width: 860px) 100vw, 860px" /></a>
   </p>
   
   <p style="text-align: justify;">

@@ -1,3 +1,22 @@
+// Colors
+$colors : (
+  "running-bg": black, //applies to header and footer
+  "running-fg": white,
+
+  "main-bg": white,
+  "main-fg": black
+);
+
+
+$fonts: (
+  "header-font": '1.2em "Fira Sans", sans-serif',
+  "footer-font": '1.2em "Fira Sans", sans-serif',
+  "main-font": '1.2em "Fira Sans", sans-serif'
+);
+
+$page-width: 960px;
+
+
 $gray-1: #f9f9f9 !default;
 $gray-2: #e5e5e5 !default;
 $gray-3: #ccc !default;

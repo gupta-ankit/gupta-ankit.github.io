@@ -1,39 +1,8 @@
-{% assign pages_list = site.pages %}
 <header>
-  <div class="title">
-    <h1 class="display-2 center site-title">Ankit Gupta</h1>
-    <h3 class="center site-subtitle">HCI & Health Informatics Researcher | Visual Analyst | Full Stack Developer</h3>
-  </div>
-
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-      <!-- Empty brand to move toggler to the right -->
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="navbar-nav mr-auto center">
-          <li class="nav-item {% if page.url == '/' %} active{% endif %}">
-            <a class="nav-link" href="/">Home</a>
-          </li>
-          <li class="nav-item {% if page.title == 'Blog' %} active{% endif %}">
-            <a class="nav-link" href="/blog">Blog</a>
-          </li>
-          {% for node in pages_list %}
-          {% if node.title != null %}
-          {% if node.nav_link %}
-          <li class="nav-item {% if page.url == node.url %} active{% endif %}">
-            <a class="nav-link" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
-          </li>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{site.url}}/assets/documents/resume.pdf" target="_blank">Resume</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <h2 class="title">Ankit Gupta's Blog</h2>
+  <div class="navbar">
+    <li>About</li>
+    <li>Search</li>
+    <li>Something</li>
   </div>
 </header>

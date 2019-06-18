@@ -3,8 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Ankit Gupta
-description:      HCI Researcher | HIT Researcher | Full Stack Developer
+title:            Ankit Gupta's Blog
 
 author:
   name:           'Ankit Gupta'

@@ -1,4 +1,7 @@
-footer p.copyright {
+footer {
+}
+
+footer div {
+  width: $page-width;
   margin: auto;
-  text-align: center;
 }
