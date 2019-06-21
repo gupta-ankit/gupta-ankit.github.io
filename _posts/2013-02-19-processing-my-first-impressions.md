@@ -4,8 +4,6 @@ title: 'Processing: My first impressions'
 date: 2013-02-19T07:45:55+00:00
 author: ankit
 layout: post
-guid: http://www.ankit-gupta.com/?p=135
-permalink: /processing-my-first-impressions/
 categories:
   - Java
   - Processing

@@ -4,8 +4,6 @@ title: Competition, Collaboration and Software.
 date: 2012-10-24T03:04:19+00:00
 author: ankit
 layout: post
-guid: http://www.ankit-gupta.com/blog/?p=43
-permalink: /competition-and-collaboration/
 categories:
   - Uncategorized
 ---

@@ -8,11 +8,10 @@ title:            Ankit Gupta's Blog
 author:
   name:           'Ankit Gupta'
 
-paginate:         5
-paginate_path: "/blog/page:num"
-
 plugins:
   - jekyll-sitemap
+  - jekyll-paginate-v2
+
 #custom vars
 version:            3.4.1
 
@@ -26,11 +25,11 @@ twitter_username: AnkitGupta_89
 linkedin_username: ankit2801
 github_username: gupta-ankit
 
-defaults:
-  -
-    scope:
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Ankit Gupta"
-      comments: true
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true

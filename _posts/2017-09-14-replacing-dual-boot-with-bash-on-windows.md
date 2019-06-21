@@ -1,9 +1,11 @@
 ---
-title: Replacing dual boot with Bash on Windows
+title: 'Replacing dual boot with Bash on Windows'
+date: 2017-09-14T10:12:09+00:00
 layout: post
 author: Ankit Gupta
 tags: Windows, dual-boot, Bash on Windows
-comments: true
+categories:
+  - Uncategorized
 ---
 
 For most of my career, I have found a computer with dual boot setup &#8212;  Windows and Ubuntu &#8212; to be an essential component. I use Ubuntu for all the software development and Windows for editing word documents, working with Adobe products, and playing games (something which is still largely absent from Linux distributions). Until recently, I have found that writing code on Ubuntu to be very efficient. Compared to when I was using Windows along, it saves me a lot of time wasted in trying to get some compiler/framework to work and dealing with incompatibility issues on Windows. A simple apt-get install on my Ubuntu machine goes a long. The only drawback of this setup is that I have to switch between the two operating systems. I cannot switch to a short burst of gaming and get back to work. But, that never became a huge issue.

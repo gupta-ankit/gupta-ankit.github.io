@@ -5,7 +5,6 @@ date: 2012-11-24T20:34:16+00:00
 author: ankit
 layout: post
 guid: http://www.ankit-gupta.com/?p=76
-permalink: /animating-the-console/
 wp-syntax-cache-content:
   - |
     a:1:{i:1;s:7124:"

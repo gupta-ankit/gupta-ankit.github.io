@@ -6,16 +6,13 @@
 @import "header";
 @import "main";
 @import "footer";
-// @import "base";
+@import "base";
 @import "code";
-// @import "layout";
-// @import "message";
-// @import "posts";
+@import "message";
+@import "posts";
 @import "syntax";
-// @import "tags";
-// @import "pagination";
-// @import "social";
-// @import "footer";
+@import "tags";
+@import "pagination";
 
 body {
   margin: 0px;
