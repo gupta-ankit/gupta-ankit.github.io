@@ -12,17 +12,20 @@ tags:
   - eclipse-rcp
   - swing
 ---
-<div id="attachment_380"   class="wp-caption aligncenter">
-  <a href="/uploads/2013/12/SwingSWTExample.png"><img class=" wp-image-380  " alt="SwingSWTExample" src="/uploads/2013/12/SwingSWTExample.png"   height="429" srcset="/uploads/2013/12/SwingSWTExample.png 1000w, /uploads/2013/12/SwingSWTExample-300x128.png 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a>
-  
-  <p class="wp-caption-text">
-    <strong>This is what the application looks at the end.</strong>
-  </p>
-</div>
 
 <p style="text-align: justify;">
   Eclipse RCP is a great platform for developing nice GUI applications with Java. It provides a wonderful framework to build application with its very useful publish-subscribe event model and annotation based dependency injection. It feels almost like magic when you switch from developing hard-coded Swing applications to Eclipse.
 </p>
+
+<!--more-->
+
+<div id="attachment_380"   class="wp-caption aligncenter">
+  <a href="/uploads/2013/12/SwingSWTExample.png"><img class=" wp-image-380  " alt="SwingSWTExample" src="/uploads/2013/12/SwingSWTExample.png"   height="429" srcset="/uploads/2013/12/SwingSWTExample.png 1000w, /uploads/2013/12/SwingSWTExample-300x128.png 300w" sizes="(max-width: 1000px) 100vw, 1000px" /></a>
+
+  <p class="wp-caption-text">
+    <strong>Sneak Peek: This is what the application looks at the end.</strong>
+  </p>
+</div>
 
 <p style="text-align: justify;">
   <span style="line-height: 1.5;">However, it uses SWT as its widget set which is independent of the Java AWT and Swing library. While, it would be a little absurd to develop Swing widgets for Eclipse RCP application considering the richness of the SWT platform, there are times when it is unavoidable. At times you have an existing Java application with a lot of custom  Swing components or your application uses a third party visualization library like </span><a style="line-height: 1.5;" href="http://jung.sourceforge.net/index.html">JUNG </a><span style="line-height: 1.5;">which is developed entirely in AWT/Swing. Converting every bit of Swing code to SWT in such a case is very expensive and time consuming. A good time-and-money saving approach in such a case would be to move to SWT, one step at a time with converting Swing code to SWT, as and when possible. Thankfully, the good members of the Eclipse community have made it really simple.</span>

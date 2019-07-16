@@ -3,6 +3,18 @@
 // Each post is wrapped in `.post` and is used on default and post layouts. Each
 // page is wrapped in `.page` and is only used on the page layout.
 
+.post-excerpt, .post {
+  .post-title {
+    line-height: 1.5em;
+  }
+
+  .post-content {
+    font-size: 13pt;
+    line-height: 1.5em;
+    font-family: Helvetica;
+  }
+}
+
 article + *, .post-body ~ section {
   padding-top: $section-spacing;
   border-top: 1px solid $border-color;
@@ -19,6 +31,12 @@ article + *, .post-body ~ section {
       margin-top: .25rem;
     }
   }
+}
+
+article.post-body {
+  font-family: Helvetica;
+  font-size: 13pt;
+  line-height: 1.5em;
 }
 
 // Blog post or page title

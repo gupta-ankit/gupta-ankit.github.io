@@ -11,6 +11,8 @@ categories:
   If you happen to be a guy who has spent some time in online forums for software developers, you might be aware of the flame wars that go on between different software such as <strong>vim </strong>and<strong> emacs</strong> or <strong>netbeans </strong>and<strong> eclipse,</strong> or between different operating systems. I happen to be the guy who just hates these kind of discussions. The problem with these flame wars is that they start as simple comparisons or discussions and evolve into pure blasphemy.
 </p>
 
+<!--more-->
+
 <p style="text-align: justify;">
   Obviously there is a reason to this madness. It is usually the incapability/inflexibility of a particular piece of software to achieve what someone might want. One thing that I have learnt about software in terms of functionality is that it is a very bad idea to develop software that has features to satisfy the needs of every user in a given domain. What happens very often is that people start copying their rival product which can lead to bad things happening. You might copy some product that already exists and you won&#8217;t have a selling point and eventually you will have to sell your product at a lower price (potentially a series of unpleasant decisions). Just look at the products that try to copy Photoshop, per se. Now, I am not talking about products that were created to provide free alternatives because they have achieved their goals.
 </p>

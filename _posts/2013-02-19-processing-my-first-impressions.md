@@ -11,7 +11,7 @@ categories:
 <p style="text-align: justify;">
   Long I have not known about an interesting environment for working on graphics and animation. It is called <a href="http://processing.org/">Processing</a>. I have long been using Java for all my desktop application needs (with occasional also some animation/custom component coding in Swing). So, I know the pains of developing even a simple visualization, animation or even a worthy UI using Java/Swing.
 </p>
-
+<!--more-->
 <p style="text-align: justify;">
   Recently I started working for a visualization group as an RA/Lead Developer. At work, it is often a requirement to prototype some visualization real fast and hence I was introduced to Processing. And to put it in words, it was like &#8220;I was given a power that I could not wield&#8221;, and this was not because Processing was ugly or complicated. Rather, it is because it is very different from what I have been doing so far with Swing. In this post, I will try to discuss my first reactions to Processing, which do not include any code samples (that is for later).
 </p>

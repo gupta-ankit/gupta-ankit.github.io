@@ -6,79 +6,6 @@ author: ankit
 layout: post
 guid: http://www.ankit-gupta.com/?p=320
 permalink: /initializing-a-final-variable-when-the-method-used-to-assign-throws-an-exception/
-wp-syntax-cache-content:
-  - |
-    a:2:{i:1;s:3173:"
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code"><pre class="java" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">class</span> Foo<span style="color: #009900;">&#123;</span>
-    <span style="color: #000000; font-weight: bold;">private</span> Foo<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span><span style="color: #009900;">&#125;</span>
-    &nbsp;
-    <span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000000; font-weight: bold;">static</span> Foo createFoo<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> <span style="color: #000000; font-weight: bold;">throws</span> <span style="color: #003399;">Exception</span><span style="color: #009900;">&#123;</span>
-    &nbsp;
-    <span style="color: #009900;">&#125;</span>
-    <span style="color: #009900;">&#125;</span>
-    &nbsp;
-    <span style="color: #000000; font-weight: bold;">class</span> Bar<span style="color: #009900;">&#123;</span>
-    <span style="color: #000000; font-weight: bold;">private</span> <span style="color: #000000; font-weight: bold;">final</span> Foo foo<span style="color: #339933;">;</span>
-    &nbsp;
-    <span style="color: #666666; font-style: italic;">//This will not work. It will give the error &quot;variable foo might not have been initialized.</span>
-    <span style="color: #000000; font-weight: bold;">public</span> Bar<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
-    <span style="color: #000000; font-weight: bold;">try</span><span style="color: #009900;">&#123;</span>
-    foo <span style="color: #339933;">=</span> Foo.<span style="color: #006633;">createFoo</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
-    <span style="color: #009900;">&#125;</span><span style="color: #000000; font-weight: bold;">catch</span><span style="color: #009900;">&#40;</span><span style="color: #003399;">Exception</span> e<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
-    <span style="color: #003399;">System</span>.<span style="color: #006633;">err</span>.<span style="color: #006633;">println</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;foo cannot be initialized&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
-    <span style="color: #009900;">&#125;</span>
-    <span style="color: #009900;">&#125;</span>
-    <span style="color: #009900;">&#125;</span></pre></td></tr></table><p class="theCode" style="display:none;">class Foo{
-    private Foo(){}
-    
-    public static Foo createFoo() throws Exception{
-    
-    }
-    }
-    
-    class Bar{
-    private final Foo foo;
-    
-    //This will not work. It will give the error &quot;variable foo might not have been initialized.
-    public Bar(){
-    try{
-    foo = Foo.createFoo();
-    }catch(Exception e){
-    System.err.println(&quot;foo cannot be initialized&quot;);
-    }
-    }
-    }</p></div>
-    ;i:2;s:2521:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code"><pre class="java" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">class</span> Bar<span style="color: #009900;">&#123;</span>
-    ...
-    <span style="color: #000000; font-weight: bold;">public</span> Bar<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
-    foo <span style="color: #339933;">=</span> createFooWrapper<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
-    <span style="color: #009900;">&#125;</span>
-    &nbsp;
-    <span style="color: #000000; font-weight: bold;">private</span> Foo createFooWrapper<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
-    <span style="color: #000000; font-weight: bold;">try</span><span style="color: #009900;">&#123;</span>
-    <span style="color: #000000; font-weight: bold;">return</span> Foo.<span style="color: #006633;">createFoo</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
-    <span style="color: #009900;">&#125;</span><span style="color: #000000; font-weight: bold;">catch</span><span style="color: #009900;">&#40;</span><span style="color: #003399;">Exception</span> e<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
-    <span style="color: #003399;">System</span>.<span style="color: #006633;">err</span>.<span style="color: #006633;">println</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;foo cannot be initialized&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
-    <span style="color: #009900;">&#125;</span>
-    <span style="color: #000000; font-weight: bold;">return</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #339933;">;</span>
-    <span style="color: #009900;">&#125;</span>
-    <span style="color: #009900;">&#125;</span></pre></td></tr></table><p class="theCode" style="display:none;">class Bar{
-    ...
-    public Bar(){
-    foo = createFooWrapper();
-    }
-    
-    private Foo createFooWrapper(){
-    try{
-    return Foo.createFoo();
-    }catch(Exception e){
-    System.err.println(&quot;foo cannot be initialized&quot;);
-    }
-    return null;
-    }
-    }</p></div>
-    ";}
 categories:
   - Java
 tags:
@@ -86,15 +13,17 @@ tags:
   - tutorial
 ---
 <p style="text-align: justify;">
-  A good design principle is to make a variable final whenever possible. However, following this principle can sometimes be tricky. One such case is when the variable/field is initialized with return of a function that throws exception. Let me explain using an example. Suppose, you have classes <strong>Foo</strong> and <strong>Bar </strong>as follows:
+  A good programming practice is to make a variable final whenever possible. However, following this principle can sometimes be tricky. One such case is when the variable/field is initialized with return of a function that throws exception. Let me explain using an example. Suppose, you have classes <strong>Foo</strong> and <strong>Bar </strong>as follows:
 </p>
+
+<!--more-->
 
 <pre lang="java">class Foo{
   private Foo(){}
 
   public static Foo createFoo() throws Exception{
 
-  } 
+  }
 }
 
 class Bar{

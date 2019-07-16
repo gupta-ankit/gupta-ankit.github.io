@@ -17,6 +17,8 @@ tags:
   Visualization systems generally consist of several independent visualizations, each allowing exploration of a different aspect of data. Over years, researchers have developed several interaction techniques to allow users to explore data. Two of these several techniques are <strong>Brushing </strong>and <strong>Linking</strong>.
 </p>
 
+<!--more-->
+
 <p style="text-align: justify;">
   <strong>Brushing</strong> refers to several interaction techniques that allow the user to select a subset of data in a visualization. Consider the following node-link visualization:
 </p>
@@ -25,7 +27,7 @@ tags:
 
 <div id="attachment_212"   class="wp-caption alignnone">
   <a href="/uploads/2013/05/Screenshot-from-2013-05-24-131159.png"><img class="size-full wp-image-212" alt="A node-link graph with several nodes and images." src="/uploads/2013/05/Screenshot-from-2013-05-24-131159.png"   height="667" srcset="/uploads/2013/05/Screenshot-from-2013-05-24-131159.png 724w, /uploads/2013/05/Screenshot-from-2013-05-24-131159-300x276.png 300w, /uploads/2013/05/Screenshot-from-2013-05-24-131159-325x300.png 325w" sizes="(max-width: 724px) 100vw, 724px" /></a>
-  
+
   <p class="wp-caption-text">
     A node-link graph with several nodes and images.
   </p>
@@ -39,7 +41,7 @@ tags:
 
 <div id="attachment_214"   class="wp-caption alignnone">
   <a href="/uploads/2013/05/Screenshot-from-2013-05-24-131237.png"><img class="size-full wp-image-214" alt="A subset of nodes selected in the graph." src="/uploads/2013/05/Screenshot-from-2013-05-24-131237.png"   height="678" srcset="/uploads/2013/05/Screenshot-from-2013-05-24-131237.png 678w, /uploads/2013/05/Screenshot-from-2013-05-24-131237-150x150.png 150w, /uploads/2013/05/Screenshot-from-2013-05-24-131237-300x300.png 300w" sizes="(max-width: 678px) 100vw, 678px" /></a>
-  
+
   <p class="wp-caption-text">
     A subset of nodes selected in the graph.
   </p>
@@ -55,7 +57,7 @@ tags:
 
 <div id="attachment_215"   class="wp-caption alignnone">
   <a href="/uploads/2013/05/Screenshot-from-2013-05-24-135700.png"><img class="size-large wp-image-215" alt="Document view in CZSaw that brushes the entities selected in a list to a document." src="/uploads/2013/05/Screenshot-from-2013-05-24-135700-1024x435.png"   height="256" srcset="/uploads/2013/05/Screenshot-from-2013-05-24-135700-1024x435.png 1024w, /uploads/2013/05/Screenshot-from-2013-05-24-135700-300x127.png 300w, /uploads/2013/05/Screenshot-from-2013-05-24-135700-500x212.png 500w, /uploads/2013/05/Screenshot-from-2013-05-24-135700.png 1295w" sizes="(max-width: 604px) 100vw, 604px" /></a>
-  
+
   <p class="wp-caption-text">
     Document view in CZSaw that brushes the entities selected in a list to a document.
   </p>

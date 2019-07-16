@@ -6,17 +6,6 @@ author: ankit
 layout: post
 guid: http://www.ankit-gupta.com/?p=257
 permalink: /what-can-you-do-with-java-annotations-part-1/
-wp-syntax-cache-content:
-  - |
-    a:1:{i:1;s:563:"
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code"><pre class="java" style="font-family:monospace;">@Override
-    <span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000066; font-weight: bold;">void</span> myMethod<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
-    ...
-    <span style="color: #009900;">&#125;</span></pre></td></tr></table><p class="theCode" style="display:none;">@Override
-    public void myMethod(){
-    ...
-    }</p></div>
-    ";}
 categories:
   - Java
 tags:
@@ -25,6 +14,8 @@ tags:
   - java reflection
 ---
 Java 5.0 introduced annotations among many things. Annotations are a way of adding metadata to Java elements such as _classes, methods, variables, parameters_ and _packages._ An annotation in its simplest form looks something like this:
+
+<!--more-->
 
 <p style="padding-left: 30px;">
   <code>@MyAnnotation</code>
