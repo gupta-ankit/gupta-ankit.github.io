@@ -7,16 +7,22 @@ header .grid-container {
   width: $page-width;
   margin: auto;
   display: grid;
-  grid-template-columns: 5fr 5fr;
-  grid-template-areas: 'title navbar';
-  height: 50px;
+  grid-template-columns: 5fr;
+  grid-template-areas: 'title';
+  height: 150px;
   color: map-get($colors, "running-fg");
 }
 
 header .grid-container .title {
   grid-area: title;
+  text-align: center;
+  font-size: 36pt;
+  letter-spacing: 5px;
+  font-family: Helvetica;
 
   a {
+    text-align: center;
+    text-transform: uppercase;
     text-decoration: none;
     color: inherit;
   }
