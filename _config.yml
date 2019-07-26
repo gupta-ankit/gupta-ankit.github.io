@@ -8,13 +8,6 @@ title:            Ankit Gupta's Blog
 author:
   name:           'Ankit Gupta'
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate-v2
-
-#custom vars
-version:            3.4.1
-
 disqus:
   shortname: ankitgupta
 
@@ -22,16 +15,7 @@ google_analytics: UA-29493248-1
 
 excerpt_separator: "<!--more-->"
 
-
 twitter_username: AnkitGupta_89
 linkedin_username: ankit2801
 github_username: gupta-ankit
 
-pagination:
-  enabled: true
-  per_page: 3
-  permalink: '/page/:num/'
-  title: ':title - page :num of :max'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
