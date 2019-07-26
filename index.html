@@ -5,9 +5,11 @@ pagination:
   enabled: true
 ---
 
- {% include pagination-newer.html %}
+{% comment %}
+{% include pagination-newer.html %}
+{% endcomment %}
 
-{% for post in paginator.posts %}
+{% for post in site.posts %}
 <article class="post-excerpt">
   <h2 class="post-title">
     <a href="{{ site.baseurl }}{{ post.url }}">
@@ -35,5 +37,6 @@ pagination:
 </article>
 {% endfor %}
 
-
+{% comment %}
  {% include pagination-older.html %}
+{% endcomment %}
