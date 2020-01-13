@@ -1,20 +1,4 @@
-
-main .main-grid {
-  padding-top: 20px;
-  display: grid;
-  width: $page-width;
-
-  grid-template-columns: 7fr 2fr;
-  grid-template-areas: 'main aside';
+main {
+  width: 800px;
   margin: auto;
-  grid-column-gap: 45px;
-}
-
-main .main-grid .content {
-  grid-area: main;
-}
-
-main .main-grid .aside {
-  grid-area: aside;
-  overflow: hidden;
 }
