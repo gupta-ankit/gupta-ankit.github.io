@@ -3,7 +3,7 @@ title: 'Replacing dual boot with Bash on Windows'
 date: 2017-09-14T10:12:09+00:00
 layout: post
 author: Ankit Gupta
-tags: Windows, dual-boot, Bash on Windows
+tags: windows, dual-boot, bash-on-windows
 categories:
   - Uncategorized
 ---
