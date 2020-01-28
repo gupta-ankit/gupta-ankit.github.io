@@ -1,0 +1,79 @@
+---
+id: 76
+title: Animating the console!
+date: 2012-11-24T20:34:16+00:00
+author: Ankit Gupta
+layout: post
+categories:
+  - Java
+tags:
+  - console
+  - programming-tricks
+---
+<p style="text-align: justify;">
+  There are times when I love to use command-line/terminal (whatever you want to call it). And when I do I like to do something fun with it, and not just putting text to read. This post contains two examples of some fun code that you might wanna use to make something nice of your command-line application.
+</p>
+
+<p style="text-align: justify;">
+  The first example is a rolling piece of text on console (something similar to what you might get from the HTML marquee.
+</p>
+
+[<img class="alignnone  wp-image-28" title="MarqueeOnConsole" alt="" src="/uploads/2012/11/MarqueeOnConsole1.gif" />](/uploads/2012/11/MarqueeOnConsole1.gif)
+
+<pre lang="java" line="1">/**
+* MarqueeOnConsole.java
+* Following piece of code available to use without any fee for any closed/open-source project.
+* Creates a HTML-marquee-like text on console.
+*
+* @author Ankit Gupta
+* @version 1.0
+*/
+public class MarqueeOnConsole{
+
+	/** Width of the marquee in terms of character. **/
+	public static final int CONSOLE_LENGTH=40;
+
+	/** Creates a rolling marquee on console. **/
+	public static void main(String []agrs) throws InterruptedException{
+		String text = "This text is rolling!";
+		int prefixLength=-1;
+		while(true){
+			String prefix = "\r";
+			prefixLength++;
+			if(prefixLength&gt;CONSOLE_LENGTH){
+				prefixLength=0;
+			}
+			for(int i=0; i &lt; prefixLength;i++){
+				prefix += " ";
+			}
+			int endIndex = CONSOLE_LENGTH-prefixLength;
+			if(endIndex &gt; text.length()){
+				endIndex = text.length();
+			}
+			String printableText = text.substring(0,endIndex);
+			System.out.print(prefix + printableText);
+			Thread.sleep(100);
+		}
+	}
+}</pre>
+
+<p style="text-align: justify;">
+  This second example is the one that simulates the process completion that you see on console with increasing percent.
+</p>
+
+<p style="text-align: justify;">
+  <p style="text-align: justify;">
+    <a href="/uploads/2012/11/AnimatedConsole.gif"><img class="alignnone size-full wp-image-49" alt="AnimatedConsole" src="/uploads/2012/11/AnimatedConsole.gif"   height="330" srcset="/uploads/2012/11/AnimatedConsole.gif 860w, /uploads/2012/11/AnimatedConsole-300x115.gif 300w, /uploads/2012/11/AnimatedConsole-500x191.gif 500w" sizes="(max-width: 860px) 100vw, 860px" /></a>
+  </p>
+
+  <p style="text-align: justify;">
+    The key in both the example here is the use of &#8220;\r&#8221; (carriage return character). What it does is that it moves the cursor to the front of the current-line without moving it down (like &#8220;\n&#8221;).
+  </p>
+
+  <p style="text-align: justify;">
+    Although, this is not something awesome but still something that might help you make your command-line tool or application look pretty.
+  </p>
+
+  <p style="text-align: justify;">
+    If you have done some nice effect in your text-based console app, I would like to have a look at it. Send me an email or leave a reply here.
+  </p>
