@@ -1,5 +1,5 @@
 ---
-title: Heat Map Chart of Semantic Role Labels
+title: Visualizing semantic role labels using heat maps in Excel
 author: ankit
 layout: post
 categories:
@@ -8,6 +8,7 @@ tags:
   - heat-map
   - semantic role labelling
   - visual analytics
+  - excel
 ---
 
 While doing text analytics on a large document collection, the analyst is often looking for relationships between entities like person, organization, location etc. The existing

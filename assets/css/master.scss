@@ -18,3 +18,11 @@
 body {
   margin: 0px;
 }
+
+.post-title, .post-content p {
+  font-family: Roboto, sans-serif;
+}
+
+.post-excerpt .post-title a {
+  text-decoration: none;
+}
