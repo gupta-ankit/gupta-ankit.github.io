@@ -5,7 +5,7 @@ tags: continuous-delivery deployment-frequency
 date: 2020-09-13 02:39 -0700
 excerpt: Frequent deployments allow the developers to get early feedback and correct their course. There is some research that suggestshows a positive correlation between high-performing teams and deployment frequency. In this post, I talk about why frequent deployments are important and how you can increase your deployment frequency.
 ---
-## Why to deploy more frequently?
+## Why you should deploy more frequently?
 Over time, the software industry has discovered a significant factor in successfully developing software projects: “early feedback.” Unlike hardware, Software allows us 
 to deliver features incrementally to our users and get feedback on those features as soon as they are delivered. The early feedback enables 
 developers to improve their understanding of the requirements and detect bugs early.
@@ -15,9 +15,8 @@ as possible. Instead of waiting on getting all the requirements before writing t
 (often referred to as the “minimum viable product”) that will add value to actual users. You should also keep in mind that the MVP is too big if it takes more than one month to 
 deliver (not including the time it takes to set up your infrastructure and build pipeline, which should not take more than two weeks).
 
-There would be times when the code that you deploy does not add a new feature --- perhaps is fixes a bug or increases performance --- and you should treat these code changes as any other code change. 
-Your goal should be to deliver any code change that your team makes as soon as possible. There would be times when the code that you deploy does not add a new feature — perhaps fix a bug or increases 
-performance — and you should treat these code changes as any other code change. Your goal should be to deliver any code change that your team makes as soon as possible. 
+There would be times when the code that you deploy does not add a new feature —-- perhaps a bug-fix or performance-improvement --- and you should treat these code changes as 
+any other code change. Your goal should be to deliver any code change that your team makes as soon as possible. 
 
 There is some evidence that shows a positive correlation between high-performing teams and deployment frequency. You can read more about 
 the research in the [Accelerate book by Forsgren and colleagues](https://amzn.to/3c58tNf). I highly recommend this book if you are interested in knowing what makes a highly performant team. 
@@ -35,7 +34,6 @@ still try to deliver bug-free code; your increased deployment frequency should n
 should track, which can read about in the "Accelerate" book.
 
 ## How do you increase deployment frequency?
-Collecting metrics around deployment frequency is just the first step. The metrics, if collec## How do you increase deployment frequency?
 Collecting metrics around deployment frequency is just the first step. The metrics, if collected regularly, should give you an insight into what makes your deployments slow. There are a variety of
 factors that prevent teams from deploying more frequently. Here are some of the factors that I have observed to be contributing to low deployment frequencies
 

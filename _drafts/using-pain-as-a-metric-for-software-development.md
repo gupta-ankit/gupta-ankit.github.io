@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using pain as a metric for software development
+title: Pain Driven Development: Using pain as a metric to sort software development priorities
 ---
 
 If I remember correctly, the idea of "Pain Driven Development" was first introduced to me a couple of years ago by Kent Beck. 
