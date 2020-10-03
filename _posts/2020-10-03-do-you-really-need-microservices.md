@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Does your organization really need microservices?
-date: 2020-10-03 10:31 -0700
+date: 2020-10-03
 tags: microservices monoliths microservices-value-proposition
-excerpt: It is important that you understand the value proposition of microservices before you can decide if you really want to migrate from your current architecture to a microservices architecture.
-It is also important to keep in mind that "Monoliths" and "Microservices" are not your only choices. Microservices and monoliths are two ends of a spectrum. There are several alternatives in between.
+excerpt: It is important that you understand the value proposition of microservices before you can decide if you really want to migrate from your current architecture to a microservices architecture. It is also important to keep in mind that "Monoliths" and "Microservices" are not your only choices. Microservices and monoliths are two ends of a spectrum. There are several alternatives in between.
 ---
 We, as software developers, and as a software industry keep falling for the false-cause fallacy. We often mistake
 technologies that are used at successful companies as the cause of their success. This fallacy comes with a high
