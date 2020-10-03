@@ -46,10 +46,12 @@ about how to design microservices to address some of the costs of microservices:
 
 The "Building Microservices" book by Sam Newman is an excellant book if are completely new to microservices. It introduces some important concepts that are important in understanding the value of 
 microservices.
+
 <a href="https://www.amazon.ca/Building-Microservices-Designing-Fine-Grained-Systems/dp/1492034029/ref=as_li_ss_il?&hvadid=335213572220&hvpos=&hvnetw=g&hvrand=873840772910015900&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001505&hvtargid=pla-464425939893&psc=1&linkCode=li3&tag=ankitgupta06-20&linkId=84b0ad047e73cb0625cc13b62d8411d3&language=en_CA" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1492034029&Format=_SL250_&ID=AsinImage&MarketPlace=CA&ServiceVersion=20070822&WS=1&tag=ankitgupta06-20&language=en_CA" ></a><img src="https://ir-ca.amazon-adsystem.com/e/ir?t=ankitgupta06-20&language=en_CA&l=li3&o=15&a=1492034029" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 "Microservices Patterns" is another excellant book that will provide you with specific patterns that you can follow to implement microservices
+
 <a href="https://www.amazon.ca/Microservices-Patterns-examples-Chris-Richardson/dp/1617294543/ref=as_li_ss_il?&hvadid=292950359971&hvpos=&hvnetw=g&hvrand=873840772910015900&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001505&hvtargid=pla-430608508482&psc=1&linkCode=li3&tag=ankitgupta06-20&linkId=a3424cd0d95d45e7a7d138c236ce435a&language=en_CA" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1617294543&Format=_SL250_&ID=AsinImage&MarketPlace=CA&ServiceVersion=20070822&WS=1&tag=ankitgupta06-20&language=en_CA" ></a><img src="https://ir-ca.amazon-adsystem.com/e/ir?t=ankitgupta06-20&language=en_CA&l=li3&o=15&a=1617294543" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 It is important that you understand the value proposition of microservices before you can decide if you really want to migrate from your current architecture to a microservices architecture. 
