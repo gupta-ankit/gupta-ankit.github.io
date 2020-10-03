@@ -3,6 +3,8 @@ layout: post
 title: Does your organization really need microservices?
 date: 2020-10-03 10:31 -0700
 tags: microservices monoliths microservices-value-proposition
+excerpt: It is important that you understand the value proposition of microservices before you can decide if you really want to migrate from your current architecture to a microservices architecture.
+It is also important to keep in mind that "Monoliths" and "Microservices" are not your only choices. Microservices and monoliths are two ends of a spectrum. There are several alternatives in between.
 ---
 We, as software developers, and as a software industry keep falling for the false-cause fallacy. We often mistake
 technologies that are used at successful companies as the cause of their success. This fallacy comes with a high
@@ -51,8 +53,8 @@ microservices.
 "Microservices Patterns" is another excellant book that will provide you with specific patterns that you can follow to implement microservices
 <a href="https://www.amazon.ca/Microservices-Patterns-examples-Chris-Richardson/dp/1617294543/ref=as_li_ss_il?&hvadid=292950359971&hvpos=&hvnetw=g&hvrand=873840772910015900&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001505&hvtargid=pla-430608508482&psc=1&linkCode=li3&tag=ankitgupta06-20&linkId=a3424cd0d95d45e7a7d138c236ce435a&language=en_CA" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1617294543&Format=_SL250_&ID=AsinImage&MarketPlace=CA&ServiceVersion=20070822&WS=1&tag=ankitgupta06-20&language=en_CA" ></a><img src="https://ir-ca.amazon-adsystem.com/e/ir?t=ankitgupta06-20&language=en_CA&l=li3&o=15&a=1617294543" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-But, before you decide on Monoliths vs Microservices, you should also know that these are not your only choices. Microservices and monoliths are two ends of a spectrum. 
-There are several alternatives in between. Here are some of your choices (which I will explain in more detail in future posts):
+It is important that you understand the value proposition of microservices before you can decide if you really want to migrate from your current architecture to a microservices architecture. 
+It is also important to keep in mind that "Monoliths" and "Microservices" are not your only choices. Microservices and monoliths are two ends of a spectrum. There are several alternatives in between. Here are some of your choices (which I will explain in more detail in future posts):
 
 * **Monolith** If you are just starting out with a new application, keep it simple. A monolith is a perfectly reasonable choice for new projects or companies which are trying to understand what they
 want to build.
