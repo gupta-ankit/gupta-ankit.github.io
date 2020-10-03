@@ -19,7 +19,7 @@ There would be times when the code that you deploy does not add a new feature â€
 any other code change. Your goal should be to deliver any code change that your team makes as soon as possible. 
 
 There is some evidence that shows a positive correlation between high-performing teams and deployment frequency. You can read more about 
-the research in the [Accelerate book by Forsgren and colleagues](https://amzn.to/3c58tNf). I highly recommend this book if you are interested in knowing what makes a highly performant team. 
+the research in the [Accelerate book by Forsgren and colleagues](https://amzn.to/2GYeX4N). I highly recommend this book if you are interested in knowing what makes a highly performant team. 
 The authors discuss the factors that they found to be driving software delivery performance and how that can give your business a competitive advantage.
 
 
@@ -38,7 +38,7 @@ Collecting metrics around deployment frequency is just the first step. The metri
 factors that prevent teams from deploying more frequently. Here are some of the factors that I have observed to be contributing to low deployment frequencies
 
 ### High Coupling
-If almost every change that your team makes requires you to wait for a change in a service maintained by another team, you will have trouble deploying more frequently. This dependency between deployments is a sign of badly decomposed services. If you are experiencing this, the one thing you must do is think again on how to decompose the application better so that the business logic is not distributed across several services. I would highly recommend the [DDD book by Eric Evans](https://amzn.to/2Rlv6Dh). You do not have to do DDD for your services necessarily, but I found the book to be very
+If almost every change that your team makes requires you to wait for a change in a service maintained by another team, you will have trouble deploying more frequently. This dependency between deployments is a sign of badly decomposed services. If you are experiencing this, the one thing you must do is think again on how to decompose the application better so that the business logic is not distributed across several services. I would highly recommend the [DDD book by Eric Evans](https://amzn.to/2Zz7HCU). You do not have to do DDD for your services necessarily, but I found the book to be very
 useful when trying to reduce the coupling between different services.
 
 ### Lack of automation
