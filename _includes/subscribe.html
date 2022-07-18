@@ -1,0 +1,36 @@
+<div class="side-section">
+  <div data-target="newsletter">
+    <h3>Subscribe!</h3>
+    <span>Subscribe to know when new posts appear!</span>
+    <form>
+      <input type="email" name="email"/>
+      <input type="hidden" name="source" value="a20165e5-ddf3-4c1c-b54b-eee9b6dba344" />
+      <input type="button" value="Subscribe!" name="subscribeBtn"/>
+    </form>
+  </div>
+</div>
+<script type="text/javascript">
+  (function(){
+    let btn = document.querySelector("div[data-target='newsletter'] input[name='subscribeBtn']");
+    let email = document.querySelector("div[data-target='newsletter'] input[name='email']");
+    let source = document.querySelector("div[data-target='newsletter'] input[name='source']");
+    btn.addEventListener('click', function(){
+      let url = "http://nusefeed.com/subscriptions";
+      let data = {
+        email: email.value,
+        source: source.value
+      };
+      fetch(url, {
+        method: 'POST',
+        mode: 'cors',
+        cache: 'no-cache',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      })
+      .then(res => res.json())
+      .then(res => console.log(res))
+    })
+  })();
+</script>    
