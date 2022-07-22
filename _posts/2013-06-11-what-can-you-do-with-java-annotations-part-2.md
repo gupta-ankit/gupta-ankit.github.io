@@ -6,12 +6,7 @@ author: ankit
 layout: post
 guid: http://www.ankit-gupta.com/?p=264
 permalink: /what-can-you-do-with-java-annotations-part-2/
-categories:
-  - Java
-tags:
-  - annotations
-  - Java
-  - java reflection
+tags: annotations java reflection
 ---
 <p style="text-align: justify;">
   In the <a title="What can you do with Java annotations? – Part 1" href="http://www.ankit-gupta.com/what-can-you-do-with-java-annotations-part-1/">previous post</a> I briefly wrote about Java annotations and some of their uses. There is plenty of documentation about syntax and features online and hence I don&#8217;t want to write about it again.

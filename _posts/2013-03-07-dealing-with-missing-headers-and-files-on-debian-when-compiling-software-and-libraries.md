@@ -6,11 +6,7 @@ author: ankit
 layout: post
 guid: http://www.ankit-gupta.com/?p=173
 permalink: /dealing-with-missing-headers-and-files-on-debian-when-compiling-software-and-libraries/
-categories:
-  - Linux
-tags:
-  - missing headers
-  - missing libraries
+tags: linux missing-headers missing-libraries
 ---
 If you are using any Debian-based OS like Ubuntu for some time, it is possible that you might have tried to compile some library or software and encountered the same old error like this
 

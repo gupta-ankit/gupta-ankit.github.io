@@ -6,8 +6,6 @@ author: ankit
 layout: post
 guid: http://www.ankit-gupta.com/?p=177
 permalink: /how-to-run-a-loom-project-from-sublime/
-categories:
-  - Uncategorized
 ---
 [Loom](http://theengine.co/) is a game engine that provides live update functionality which makes testing code very easy. It is slowly gaining popularity at least among the newbie game developers and students (ones like me) as it is free and provides normal developers to take a shot a game development. without too much investment.
 

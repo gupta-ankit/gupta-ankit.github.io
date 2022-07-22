@@ -3,13 +3,7 @@ title: 'Replacing dual boot with Bash on Windows'
 date: 2017-09-14T10:12:09+00:00
 layout: post
 author: Ankit Gupta
-tags: windows, dual-boot, bash-on-windows
-categories:
-  - Software Review
-tags:
-  - dual-boot
-  - WSL
-  - bash
+tags: windows dual-boot bash-on-windows review wsl
 excerpt: You no longer need to setup dual-boot for using Linux on Windows laptop with the introduction of the Windows Subsytem for Linux (WSL)  
 ---
 

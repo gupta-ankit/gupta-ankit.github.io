@@ -6,12 +6,7 @@ author: ankit
 layout: post
 guid: http://www.blog.ankit-gupta.com/?p=452
 permalink: /is-chromebook-for-you-the-goods-and-bads-of-a-chromebook/
-categories:
-  - Uncategorized
-tags:
-  - chromebook
-  - cloud based apps
-  - thin-client
+tags: chromebook hardware thin-client
 ---
 My Lenovo laptop broke a few months back. I sent it for repairs and needed something cheap and lightweight in the meantime. I always wanted to use a Chromebook for fun but never considered it suitable for my needs as I develop primarily in Java. However, this time I was working on some projects where I was doing front-end web development and visualizations and a Chromebook would would have worked for me. I could still ssh into my Linux box to do some Java development (although I won&#8217;t recommend it). I finally bought a  Acer Chromebook 13 (CB5-311) and I have been using it regularly for over a month now. I have some good and bad things to say about Chromebooks and a little something about the whole idea of &#8220;moving to cloud&#8221;.
 

@@ -2,6 +2,7 @@
 layout: post
 title: 
 date: 2022-07-19
+tags: ruby memoization
 ---
 Memoization is an idiom in Ruby that allows developers to avoid performing expensive computations again
 and again. For example, suppose you have a method `price` on an `Item` class that will be called multiple times, but you do

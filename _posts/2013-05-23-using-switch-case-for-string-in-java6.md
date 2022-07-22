@@ -6,13 +6,7 @@ author: ankit
 layout: post
 guid: http://www.ankit-gupta.com/?p=201
 permalink: /using-switch-case-for-string-in-java6/
-categories:
-  - Java
-tags:
-  - if-else
-  - java 6
-  - performance
-  - switch-case
+tags: java performance switch-case
 ---
 Until Java 7, developers were not able to use **String** in **switch-case **construct. The only option was to write a huge **if-else **block like this
 

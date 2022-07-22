@@ -6,11 +6,6 @@ author: ankit
 layout: post
 guid: http://www.ankit-gupta.com/?p=320
 permalink: /initializing-a-final-variable-when-the-method-used-to-assign-throws-an-exception/
-categories:
-  - Java
-tags:
-  - sample-code
-  - tutorial
 ---
 <p style="text-align: justify;">
   A good programming practice is to make a variable final whenever possible. However, following this principle can sometimes be tricky. One such case is when the variable/field is initialized with return of a function that throws exception. Let me explain using an example. Suppose, you have classes <strong>Foo</strong> and <strong>Bar </strong>as follows:

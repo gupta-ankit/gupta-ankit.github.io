@@ -2,6 +2,7 @@
 layout: post
 title: Using next and break to return values
 date: 2022-07-16 23:27 -0700
+tags: ruby
 ---
 You are likely already familiar with using the `next` and `break` keywords in Ruby. You might have already used them in your programs for control flow in loops. Here is a quick refresher
 

@@ -6,12 +6,7 @@ author: ankit
 layout: post
 guid: http://www.ankit-gupta.com/?p=211
 permalink: /what-does-brushing-and-linking-mean-in-information-visualization/
-categories:
-  - Visualization
-tags:
-  - brushing
-  - interaction technique
-  - linking
+tags: brushing interaction-technique linking visualization
 ---
 <p style="text-align: justify;">
   Visualization systems generally consist of several independent visualizations, each allowing exploration of a different aspect of data. Over years, researchers have developed several interaction techniques to allow users to explore data. Two of these several techniques are <strong>Brushing </strong>and <strong>Linking</strong>.

@@ -6,11 +6,7 @@ author: ankit
 layout: post
 guid: http://www.ankit-gupta.com/blog/?p=379
 permalink: /how-to-use-swing-widgets-in-an-eclipse-rcp-application/
-categories:
-  - Java
-tags:
-  - eclipse-rcp
-  - swing
+tags: java swing eclipse-ide eclipse-rcp
 ---
 
 <p style="text-align: justify;">

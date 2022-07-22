@@ -2,6 +2,7 @@
 layout: post
 title: 'CSS: opacity vs rgba'
 date: 2022-06-02 10:24 -0700
+tags: css
 ---
 There are two ways of making an HTML element transparent: opacity and background color.
 

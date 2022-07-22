@@ -2,6 +2,7 @@
 layout: post
 title: Improve CLI experience of Ruby projects with binstubs
 date: 2022-07-14 01:08 -0700
+tags: ruby bundle binstubs
 ---
 If you are like me, working on multiple Ruby projects with different versions of the same gems installed, you must be familiar with `bundle exec` for picking the correct gem version.
 

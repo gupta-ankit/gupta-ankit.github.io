@@ -4,9 +4,7 @@ title: 'Processing: My first impressions'
 date: 2013-02-19T07:45:55+00:00
 author: ankit
 layout: post
-categories:
-  - Java
-  - Processing
+tags: java processing
 ---
 <p style="text-align: justify;">
   Long I have not known about an interesting environment for working on graphics and animation. It is called <a href="http://processing.org/">Processing</a>. I have long been using Java for all my desktop application needs (with occasional also some animation/custom component coding in Swing). So, I know the pains of developing even a simple visualization, animation or even a worthy UI using Java/Swing.

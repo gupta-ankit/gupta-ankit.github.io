@@ -4,11 +4,7 @@ title: Don't teach them calculus before they can add !!
 date: 2013-12-29T01:12:06+00:00
 author: ankit
 layout: post
-categories:
-  - Programming
-tags:
-  - instruction
-  - teaching
+tags: instruction teaching
 ---
  
 Lately, there has been quite a discussion online about changing ways to teach computer programming. Programming is 

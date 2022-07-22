@@ -6,12 +6,7 @@ author: ankit
 layout: post
 guid: http://www.ankit-gupta.com/?p=257
 permalink: /what-can-you-do-with-java-annotations-part-1/
-categories:
-  - Java
-tags:
-  - annotations
-  - Java
-  - java reflection
+tags: annotations java reflection
 ---
 Java 5.0 introduced annotations among many things. Annotations are a way of adding metadata to Java elements such as _classes, methods, variables, parameters_ and _packages._ An annotation in its simplest form looks something like this:
 
