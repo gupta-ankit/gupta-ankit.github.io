@@ -4,7 +4,7 @@ posts_dir = "#{File.dirname(__FILE__)}/../_posts"
 
 def generate_tag_page(tag)
   tag_dir = "#{File.dirname(__FILE__)}/../blog/tag"
-  File.open(tag_dir + "/#{tag}", 'w') do |f|
+  File.open(tag_dir + "/#{tag}.md", 'w') do |f|
     content = <<~EOF
     ---
     layout: tag

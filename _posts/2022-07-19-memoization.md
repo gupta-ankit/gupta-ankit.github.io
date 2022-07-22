@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 
-date: 2022-07-19
+date: 2022-07-19 18:27 -0700
 tags: ruby memoization
 ---
 Memoization is an idiom in Ruby that allows developers to avoid performing expensive computations again

@@ -10,11 +10,6 @@
 
 <div class="post-tags">
   {% for tag in include.post.tags %}
-    {% if tags_page %}
-      <span class="tag-name">{{ tag }}</span>
-    {% else %}
-      <span class="tag-name"><a href="{{ site.baseurl }}{{ tags_page.url }}#{{ tag | slugify }}">{{tag}}</a></span>
-    {% endif %}
-    {% if tags_page %}</a>{% else %}</span>{% endif %}
+    <span class="tag-name"><a href="{{ site.baseurl }}/blog/tag/{{ tag | slugify }}">{{tag}}</a></span>
   {% endfor %}
 </div>
