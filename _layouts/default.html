@@ -8,9 +8,13 @@
     {% include header.html %}
 
     <div class="main-wrapper">
-      {% include main.html %}
+      <main>
+        {{content}}
+      </main>
 
-      {% include sidebar.html %}
+      <div class="sidebar">
+        {% include subscribe.html %}
+      </div>
     </div>
     
     {% include footer.html %}

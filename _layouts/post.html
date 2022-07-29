@@ -1,15 +1,33 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en-us">
 
-<article class="post">
-  <h2 class="post-title">{{ page.title }}</h2>
+  {% include head.html %}
 
-  {% include post-tags.html post=page %}
+  <body class="">
+    
+    {% include header.html %}
 
-  <div class="post-content">
-      {{ content }}
-  </div>
-</article>
+    <div class="main-wrapper">
+      <main>
+        <article class="post">
+          <h2 class="post-title">{{ page.title }}</h2>
+        
+          {% include post-tags.html post=page %}
+        
+          <div class="post-content">
+              {{ content }}
+          </div>
+        </article>        
+      </main>
 
-{% include comments.html %}
+      <div class="sidebar">
+        {% include subscribe.html %}
+
+        {% include related_posts.html %}
+      </div>
+    </div>
+    
+    {% include footer.html %}
+  </body>
+</html>
+
