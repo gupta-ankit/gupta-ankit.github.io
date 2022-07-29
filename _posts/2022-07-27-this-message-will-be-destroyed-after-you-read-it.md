@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You got one chance!
-tags: ruby, fun
+tags: ruby fun
 date: 2022-07-27 22:14 -0700
 ---
 Just because you can does not mean you should. But, it is still fun!
