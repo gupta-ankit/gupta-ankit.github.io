@@ -167,4 +167,4 @@ the basic idea remains same --- separating the presentation concerns from the bu
 This approach of separating the presentation concerns comes with another advantage; it is now much more easier to write tests that validate the output. We can write tests that validate
 that the Presenter returns the strings in the right format; no need to capture standard output or the rendered HTML (in case of Rails).
 
-(Here is all the code)[https://gist.github.com/gupta-ankit/8868300906979d34a9fee164140435f4]
+[Here is all the code](https://gist.github.com/gupta-ankit/8868300906979d34a9fee164140435f4)
