@@ -83,8 +83,10 @@ def show_report2(revenues)
   f = Financials.new(country: "UK", revenues: revenues) 
   puts "year\trevenue\trevenue_growths"
   currency_symbol = case f.country
-                    when "US" "$"
-                    when "GB", "UK" "€"
+                    when "US" 
+			"$"
+                    when "GB", "UK" 
+			"€"
                     end
   f.revenues.each do |year, revenue|
     revenue_k = "#{revenue/1000}K"
