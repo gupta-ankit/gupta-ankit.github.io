@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Separating presentation concerns
-tags: ruby, patterns
+tags: ruby patterns
 date: 2022-08-07 03:04 -0700
 ---
 When building applications that present information to the user --- either via CLI or GUI ---
