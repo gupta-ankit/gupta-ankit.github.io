@@ -7,26 +7,28 @@
     
     {% include header.html %}
 
-    <div class="main-wrapper">
-      <main>
-        <article class="post">
-          <h2 class="post-title">{{ page.title }}</h2>
-        
-          {% include post-tags.html post=page %}
-        
-          <div class="post-content">
-              {{ content }}
-          </div>
-        </article>        
-      </main>
-
-      <div class="sidebar">
-        {% include subscribe.html %}
-
-        {% include related_posts.html %}
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <article class="post">
+            <h2 class="post-title">{{ page.title }}</h2>
+          
+            {% include post-tags.html post=page %}
+          
+            <div class="post-content">
+                {{ content }}
+            </div>
+          </article>        
+        </div>
+        <div class="col-md-4">
+          {% include subscribe.html %}
+  
+          {% include related_posts.html %}
+        </div>
+      </div>
+      
       </div>
     </div>
-    
     {% include footer.html %}
   </body>
 </html>
