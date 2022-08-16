@@ -13,8 +13,22 @@ that they used last year, but the list of languages that they want to use does n
 Among those who are full-time software developers:
 1. What languages interest those who no longer love Ruby?
 2. What languages are potential Rubyists using?
-3. Where are the users of languages that Rubyists want to explore headed?
 
 
 # What languages interest those who no longer love Ruby?
+The top 5 languages that current professional Ruby developers want to use are Rust, Go, Typescript, Elixir, and Kotlin.
 
+```
+Rust            395     11.02
+Go              307     8.56
+TypeScript      152     4.24
+Elixir          130     3.63
+Kotlin          128     3.57
+```
+
+
+# What languages are potential Rubyists using?
+Around 11K (2%) professional developers would like to use Ruby. The top 5 languages that these users are using Javascript, HTML, SQL, Python, Typescript, and Java
+
+
+[Here](https://github.com/gupta-ankit/developer-flow) is the code that I used for analysis.
