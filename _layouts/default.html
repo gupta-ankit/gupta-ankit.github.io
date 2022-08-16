@@ -7,13 +7,14 @@
     
     {% include header.html %}
 
-    <div class="main-wrapper">
-      <main>
-        {{content}}
-      </main>
-
-      <div class="sidebar">
-        {% include subscribe.html %}
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          {{content}}
+        </div>
+        <div class="col-md-4">
+          {% include subscribe.html %}
+        </div>
       </div>
     </div>
     
