@@ -1,8 +1,8 @@
 ---
 layout: post
-title: developer-survey-analysis
+title: Ruby in 2022 ?
 tags: developer-survey stackoverflow ruby data-analysis
-date: 2022-10-09 04:13 -0700
+date: 2022-10-01 13:13 -0700
 ---
 Some time ago StackOverflow released the results of the 2021 Developer Survey. One of the things that I was interested in was how the Ruby community is doing (at least the one on StackOverflow).
 

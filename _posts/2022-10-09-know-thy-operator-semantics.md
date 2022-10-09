@@ -1,6 +1,6 @@
 ---
 layout: post
-title: know-thy-operator-semantics
+title: Know thy language's operators
 date: 2022-10-09 04:08 -0700
 ---
 Whenever I pick a manual for a new language I often skip the first few chapters that introduce operators, conditional, etc. This is
